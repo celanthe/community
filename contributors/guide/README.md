@@ -89,7 +89,7 @@ Please consider joining Kubernetes, and making your way up the contributor ladde
 
 ## Communication
 
-- [General Information](/communication) relating to Kubernetes communicaton policies
+- [General Information](/communication) relating to Kubernetes communication policies
 
 ## Events
 
