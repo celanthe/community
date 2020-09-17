@@ -5,41 +5,41 @@ aliases: [ "/guide" ]
 description:
   A small list of things that you should read and be familiar with before you
   get started with contributing. This includes such things as signing the
-  Contributor License Agreement, familiarizing yourself with our Code of Conduct,
-  and more.
+  Contributor License Agreement, 
+  familiarizing yourself with our Code of Conduct, and more.
 ---
+
+# Getting Started
 
 - [Getting Started](#getting-started)
 - [Welcome](#welcome)
 - [Contributor Guide](#contributor-guide)
 - [Resources Available](#resources-available)
 - [Prerequisites](#prerequisites)
-- [Sign the CLA](#sign-the-CLA)
-- [Code of Conduct](#code-of-conduct)
-- [Setting Up Your Developer Environment](#setting-up)
-- [Community Expectations and Roles](#community-expectations)
+  - [Sign the CLA](#sign-the-CLA)
+  - [Code of Conduct](#code-of-conduct)
+  - [Setting Up Your Developer Environment](#setting-up)
+  - [Community Expectations and Roles](#community-expectations)
 - [Contributor Playground](#contributor-playground)
-- [Contributor Workshops](#contributor-workshops)
+  - [Contributor Workshops](#contributor-workshops)
 - [Community](#community)
-- [Communication](#communication)
-- [Events](#events)
-- [Meetups](#meetups)
-- [Mentorship](#mentorship)
+  - [Communication](#communication)
+  - [Events](#events)
+  - [Meetups](#meetups)
+  - [Mentorship](#mentorship)
 - [Advanced Topics](#advanced-topics)
-
-# Getting Started
 
 ## Welcome
 
 Have you ever wanted to contribute to the coolest cloud technology?
-This guide will help you understand the overall organization of the Kubernetes project, 
+This guide will help you understand the overall organization 
+of the Kubernetes project, 
 and direct you to the best places to get started contributing. 
 You'll be able to pick up issues, write code to fix them, 
 and get your work reviewed and merged.
 
-This document is the single source of truth for how to contribute to the code base.
-Feel free to browse the 
-[open issues] 
+This document is the single source of truth for how to 
+contribute to the code base. Feel free to browse the  [open issues] 
 and file new ones, all feedback is welcome!
 
 ## Contributor Guide
@@ -48,23 +48,12 @@ Welcome to Kubernetes! This guide is broken up into the following sections.
 It is recommended that you follow these steps in order: 
 
 - [Welcome](#welcome) - this page 
-- [Prerequisites](#prerequisites) - tasks you need to complete before you can start 
-contributing to Kubernetes
+- [Prerequisites](#prerequisites) - tasks you need to complete before 
+  you can start contributing to Kubernetes
 - [Your First Contribution](first-contribution.md) - things you'll need to know 
-before making your first contribution
+  before making your first contribution
 - [Contributing](contributing.md) - the main reference guide to contributing 
-to Kubernetes
-
-## Resources Available
-
-- [Kubernetes Contributor Playground](#kubernetes-contributor-playground)
-- [Contributor Workshops](#kubernetes-contributor-workshops)
-- [Community](#community)
-  - [Communication](#communication-1)
-  - [Events](#events)
-    - [Meetups](#meetups)
-  - [Mentorship](#mentorship)
-- [Advanced Topics](#advanced-topics)
+  to Kubernetes
 
 ## Prerequisites
 
@@ -74,25 +63,26 @@ These steps are checked automatically by [a bot]
 during your first submission. 
 Completing these steps will make your first contribution easier: 
 
-## Sign the CLA
+### Sign the CLA
 
 Before you can contribute to Kubernetes, you will need to sign the
 [Contributor License Agreement].  
 
-## Code of Conduct
+### Code of Conduct
 
 Please make sure to read and observe the 
 [Code of Conduct] and [Community Values]
 
-## Setting up your development environment
+### Setting up your development environment
 
-It is not required to set up a developer environment in order to contribute to Kubernetes.
+It is not required to set up a developer environment in order to 
+contribute to Kubernetes.
 
 If you plan to contribute code changes, 
 review the [developer resources]
 page for how to set up your environment.
 
-## Community Expectations and Roles
+### Community Expectations and Roles
 
 Kubernetes is a community project.
 Consequently, it is wholly dependent on its community to provide a productive, 
@@ -111,7 +101,7 @@ the pull request and issue review process
 in Kubernetes, then the [Kubernetes Contributor Playground]
 is the right place for you.
 
-## Contributor Workshops
+### Contributor Workshops
 
 A [Youtube playlist]
 of the New Contributor workshop has been posted.
@@ -124,36 +114,37 @@ As many open source projects often do,
 it depends on new people becoming members and regular code contributors. 
 The [Community Membership Document] 
 covers membership processes and roles. 
-Please consider joining Kubernetes, and making your way up the contributor ladder!
+Please consider joining Kubernetes, 
+and making your way up the contributor ladder!
 
-## Communication
+### Communication
 
 - [General Information] relating to Kubernetes communication policies
 
-## Events
+### Events
 
-Kubernetes participates in KubeCon + CloudNativeCon, held three times per year in 
-China, Europe and in North America.
+Kubernetes participates in KubeCon + CloudNativeCon, 
+held three times per year in China, Europe and in North America.
 Information about these and other community events is available on the CNCF 
-[Events]pages.
+[Events] pages.
 
-## Meetups
+### Meetups
 
 All Kubernetes meetups follow the general 
 [Cloud Native Computing Foundation Guidelines]
 You may also contact CNCF Staff driving the Community Groups 
 (previously known as Meetups) program by email (meetups@cncf.io)
 
-## Mentorship
+### Mentorship
 
 Learn more about the Kubernetes [mentoring initiatives].
-Join past and present Kubernetes Contributors for a live question-and-answer session during 
-[Meet Our Contributors]. 
+Join past and present Kubernetes Contributors 
+for a live question-and-answer session during [Meet Our Contributors]. 
 
 ## Advanced Topics
 
-This section includes things that need to be documented, but typical contributors 
-do not need to interact with regularly.
+This section includes things that need to be documented, 
+but typical contributors do not need to interact with regularly.
 
 - [OWNERS files] - The Kubernetes organizations are managed with OWNERS files, 
 which outline which parts of the code are owned by what groups.
