@@ -39,7 +39,7 @@ and get your work reviewed and merged.
 
 This document is the single source of truth for how to contribute to the code base.
 Feel free to browse the 
-[open issues](https://github.com/kubernetes/community/issues?q=is%3Aissue+is%3Aopen+label%3Aarea%2Fcontributor-guide) 
+[open issues] 
 and file new ones, all feedback is welcome!
 
 ## Contributor Guide
@@ -70,26 +70,26 @@ to Kubernetes
 
 Before submitting code to Kubernetes, you should first complete the following 
 prerequisites.
-These steps are checked automatically by [a bot](https://github.com/k8s-ci-robot) 
+These steps are checked automatically by [a bot]
 during your first submission. 
 Completing these steps will make your first contribution easier: 
 
 ## Sign the CLA
 
 Before you can contribute to Kubernetes, you will need to sign the
-[Contributor License Agreement](/CLA.md).  
+[Contributor License Agreement].  
 
 ## Code of Conduct
 
 Please make sure to read and observe the 
-[Code of Conduct](/code-of-conduct.md) and [Community Values](/values.md)
+[Code of Conduct] and [Community Values]
 
 ## Setting up your development environment
 
 It is not required to set up a developer environment in order to contribute to Kubernetes.
 
 If you plan to contribute code changes, 
-review the [developer resources](/contributors/devel/README.md#setting-up-your-dev-environment-coding-and-debugging) 
+review the [developer resources]
 page for how to set up your environment.
 
 ## Community Expectations and Roles
@@ -98,9 +98,9 @@ Kubernetes is a community project.
 Consequently, it is wholly dependent on its community to provide a productive, 
 friendly and collaborative environment.
 
-- Read and review the [Community Expectations](expectations.md) for an 
+- Read and review the [Community Expectations] for an 
 understanding of code and review expectations.
-- See [Community Membership](/community-membership.md) for a list the various 
+- See [Community Membership] for a list the various 
 responsibilities of contributor roles. 
 - You are encouraged to move up this contributor ladder as you gain experience.
 
@@ -108,52 +108,71 @@ responsibilities of contributor roles.
 
 If you are looking for a safe place, where you can familiarize yourself with 
 the pull request and issue review process 
-in Kubernetes, then the [Kubernetes Contributor Playground](https://github.com/kubernetes-sigs/contributor-playground/blob/master/README.md) 
+in Kubernetes, then the [Kubernetes Contributor Playground]
 is the right place for you.
 
 ## Contributor Workshops
 
-A [Youtube playlist](https://www.youtube.com/playlist?list=PL69nYSiGNLP3M5X7stuD7N4r3uP2PZQUx) 
+A [Youtube playlist]
 of the New Contributor workshop has been posted.
-An outline of the video content can be found [here](/events/2018/05-contributor-summit). 
+An outline of the video content can be found [here]. 
 
 ## Community
 
 Kubernetes is a large, lively, friendly open-source community.
 As many open source projects often do, 
 it depends on new people becoming members and regular code contributors. 
-The [Community Membership Document](/community-membership.md) 
+The [Community Membership Document] 
 covers membership processes and roles. 
 Please consider joining Kubernetes, and making your way up the contributor ladder!
 
 ## Communication
 
-- [General Information](/communication) relating to Kubernetes communication policies
+- [General Information] relating to Kubernetes communication policies
 
 ## Events
 
 Kubernetes participates in KubeCon + CloudNativeCon, held three times per year in 
 China, Europe and in North America.
 Information about these and other community events is available on the CNCF 
-[events](https://www.cncf.io/events/) pages.
+[Events]pages.
 
 ## Meetups
 
 All Kubernetes meetups follow the general 
-[Cloud Native Computing Foundation guidelines](https://github.com/cncf/communitygroups).
+[Cloud Native Computing Foundation Guidelines]
 You may also contact CNCF Staff driving the Community Groups 
 (previously known as Meetups) program by email (meetups@cncf.io)
 
 ## Mentorship
 
-Learn more about the Kubernetes mentoring initiatives [here](/mentoring/README.md).
+Learn more about the Kubernetes [mentoring initiatives].
 Join past and present Kubernetes Contributors for a live question-and-answer session during 
-[Meet Our Contributors](/meet-our-contributors.md). 
+[Meet Our Contributors]. 
 
 ## Advanced Topics
 
 This section includes things that need to be documented, but typical contributors 
 do not need to interact with regularly.
 
-- [OWNERS files](/owners.md) - The Kubernetes organizations are managed with OWNERS files, 
+- [OWNERS files] - The Kubernetes organizations are managed with OWNERS files, 
 which outline which parts of the code are owned by what groups.
+
+
+[a bot]: https://github.com/k8s-ci-robot
+[Contributor License Agreement]: ./CLA.md
+[Code of Conduct]: ./code-of-conduct.md
+[Community Values]: ./values.md
+[Developer Resources]: ./contributors/devel/README.md#setting-up-your-dev-environment-coding-and-debugging
+[Community Expectations]: ./expectations.md
+[Community Membership]: ./community-membership.md
+[here]: ./events/2018/05-contributor-summit
+[General Information]: ./communication
+[mentoring initiatives]: ./mentoring/README.md 
+[Meet Our Contributors]: ./meet-our-contributors.md
+[OWNERS files]: /owners.md
+[Cloud Native Computing Foundation Guidelines]: https://github.com/cncf/communitygroups
+[Events]: https://www.cncf.io/events/
+[YouTube Playlist]: https://www.youtube.com/playlist?list=PL69nYSiGNLP3M5X7stuD7N4r3uP2PZQUx
+[Kubernetes Contributor Playground]: https://github.com/kubernetes-sigs/contributor-playground/blob/master/README.md
+[Open Issues]: https://github.com/kubernetes/community/issues?q=is%3Aissue+is%3Aopen+label%3Aarea%2Fcontributor-guide
